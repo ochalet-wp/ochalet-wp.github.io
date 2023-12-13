@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<div>If the document.referrer property is supported in iframes by this browser then you will see a value below</div>
+<script type="text/javascript">
+  const referrer = document.referrer;
+  const div = document.createElement("div");
+  div.innerHTML = `Referrer = [${referrer}]`;
+  document.body.appendChild(div);
+</script>
+</body>
+</html>
+
